@@ -1,5 +1,4 @@
-import { Persistence } from "@digitalcreation/aws-lambda-actors/src/persistence";
-import { Event } from "@digitalcreation/aws-lambda-actors/src/event"
+import { Persistence, Event } from "@digitalcreation/aws-lambda-actors";
 import {QldbDriver, RetryConfig, TransactionExecutor} from "amazon-qldb-driver-nodejs";
 import { ClientConfiguration } from "aws-sdk/clients/acm";
 import { Agent } from "https";
@@ -48,7 +47,5 @@ export class QLDBPersistence implements Persistence {
         await this._driver.executeLambda(async (txn: TransactionExecutor) => {
             await txn.execute('INSERT INTO Commits ?', commitData);
         });
-
-        return Promise.resolve(undefined);
     }
 }
