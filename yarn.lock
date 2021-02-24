@@ -23,15 +23,20 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@digitalcreation/aws-lambda-actors@^0.10.0":
-  version "0.10.0"
-  resolved "https://f.feedz.io/digital-creation/open/npm/%40digitalcreation%2faws-lambda-actors/0.10.0/download#28a607be9a27429b6d31da187f310628e8720e1f"
-  integrity sha512-uxjzrXZGP1PmXUcT943apT6xYjyLsy8FRGlwzM4mXAfv/Qwg8ZcDA77RIRja9URJQpBjJAtksCkxjA7y/xtFxw==
+"@digitalcreation/aws-lambda-actors@^0.12.0":
+  version "0.12.0"
+  resolved "https://f.feedz.io/digital-creation/open/npm/%40digitalcreation%2faws-lambda-actors/0.12.0/download#0b89f13016abc4a4dff79fcab9ad42ac4d44c29b"
+  integrity sha512-J2Bxr6GlOCBoTsCzyVvOJg+IzN4eBwRW5gbLp0zahEFJo/UPKnyVpNNK1y9DncMyS+UY/52ZwfyCQ9BGcPJyRw==
 
 "@types/node@^12.0.2":
   version "12.20.4"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.4.tgz#73687043dd00fcb6962c60fbf499553a24d6bdf2"
   integrity sha512-xRCgeE0Q4pT5UZ189TJ3SpYuX/QGl6QIAOAIeDSbAVAd2gX1NxSZup4jNVK7cxIeP8KDSbJgcckun495isP1jQ==
+
+"@types/node@^14.14.31":
+  version "14.14.31"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.31.tgz#72286bd33d137aa0d152d47ec7c1762563d34055"
+  integrity sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
 
 amazon-qldb-driver-nodejs@^2.1.1:
   version "2.1.1"
