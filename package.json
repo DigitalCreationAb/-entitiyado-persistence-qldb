@@ -1,5 +1,5 @@
 {
-    "name": "@digitalcreation/lambda-actors-persistence-qldb",
+    "name": "@entitiyado/persistence-qldb",
     "version": "0.5.0",
     "license": "MIT",
     "devDependencies": {
@@ -11,7 +11,7 @@
         "typescript": "^4.1.5"
     },
     "dependencies": {
-        "@digitalcreation/aws-lambda-actors": "^0.13.0",
+        "@entitiyado/core": "^0.15.0",
         "amazon-qldb-driver-nodejs": "^2.1.1",
         "aws-sdk": "^2.850.0",
         "ion-js": "^4.1.0",
@@ -22,8 +22,6 @@
         "index.d.ts"
     ],
     "scripts": {
-        "build": "yarn run clean && tsc && rollup -c",
-        "push": "yarn run build && npm publish . --scope digitalcreation",
-        "clean": "rimraf dist && rimraf build && rimraf index.js && rimraf index.d.ts"
+        "build": "tsc && rollup -c"
     }
 }

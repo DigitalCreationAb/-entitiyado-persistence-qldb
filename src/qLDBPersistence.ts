@@ -1,4 +1,4 @@
-import { Persistence, Event } from "@digitalcreation/aws-lambda-actors";
+import { Persistence, Event } from "@entitiyado/core";
 import {QldbDriver, RetryConfig, TransactionExecutor} from "amazon-qldb-driver-nodejs";
 import { ClientConfiguration } from "aws-sdk/clients/acm";
 import { Agent } from "https";
@@ -14,7 +14,7 @@ export class QLDBPersistence implements Persistence {
         });
 
         const serviceConfigurationOptions: ClientConfiguration = {
-            region: region,
+            region,
             httpOptions: {
                 agent: agentForQldb
             }
@@ -40,7 +40,7 @@ export class QLDBPersistence implements Persistence {
 
     async storeEvents(entityId: string, events: Event[]): Promise<void> {
         const commitData: Record<string, any> = {
-            entityId: entityId,
+            entityId,
             events: JSON.stringify(events)
         };
 

@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@digitalcreation/aws-lambda-actors@^0.13.0":
-  version "0.13.0"
-  resolved "https://f.feedz.io/digital-creation/open/npm/%40digitalcreation%2faws-lambda-actors/0.13.0/download#5910dfd71111007976516cb597c9792c3ff7f83f"
-  integrity sha512-mdoSqDeOdkSPIauI1JVqzPEIJnJ61WCUFJcedblibZN2C1DcXwSlrzKSxIHATxq1S4vP3mOnlAjWFpRXZ2abMg==
+"@entitiyado/core@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@entitiyado/core/-/core-0.15.0.tgz#779b01735bb3353505d6709f0fd3f408732360aa"
+  integrity sha512-ZndKik57FeeS/4VcdnBRBL47Sxb0zsBZ6L0r9C4yK8VWvYK8pZVBByn9cA18nrMJaEf1PMFu3iDykpBpSSVibw==
 
 "@types/node@^12.0.2":
   version "12.20.4"
